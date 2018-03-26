@@ -2,6 +2,9 @@
 
 We employed this novel and pragmatic peel analysis model on US EPA’s Air Quality Dataset of ground-level ozone. After employing multiple data-science approaches (ARMA-ARIMA, HMM) and filters (Moving Average, Savitzky-Golay), we analyzed aftermath of the region (rural or urban) and week (weekends or weekdays) on ground-level ozone pollution and variation in its precursors.
 
+## Web-Page
+Published Web-Page is available <a href="https://newtein.github.io/ozone/" target="_blank"> here.</a>
+
 # Summary
 
  This analysis of ground-level ozone formation is categorized into two categories first, Analysis of short-term fluctuations in its concentration and second, Analysis of long-term fluctuations in its concentration. Short-term fluctuations in ground-level ozone formation is dependent over chemical reactions with its precursors (NO2 and VOCs). Their regional and weekly variations are analyzed with the aid of correlation coefficient, a popular tool in the study of ozone formation.Studies show that VOCs play a key role in ozone formation in urban areas while ozone formation in rural areas is influenced by both VOCs and NOx. This inference is derived majorly due to two factors, first, no or less correlation between O3 and NO2 concentration (wave) in the urban areas; and second, high traffic in the urban areas that make ozone formation and degradation process more complex. These inferences that are obtained by wave analysis disregards the burgeoning presence and key role of NO2 in Ozone formation while peel analysis shows a significant correlation between O3 - NO2 concentration regardless of urban or rural counties. Unlike wave analysis, Peel analysis can be used to obtain an unified and region independent ozone formation results. 
